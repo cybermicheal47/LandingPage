@@ -41,19 +41,21 @@ body{
 }
 .secondlayerrmob p{
     text-align: left;
-    max-width: max-content;
-
-    
-   
+    max-width: max-content;  
    
 }
+
+
+
 .thirdlayer{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 .lai{
-    margin-left: 0px;
+    margin-left:0px;
     margin-right:0px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -61,9 +63,22 @@ body{
     
 }
 
-
-
 }
+
+@media (max-width: 760px){
+    .centerdiv{
+        padding-top: 20px;
+        padding-left: 50px;
+    
+        
+    }
+}
+
+
+
+
+
+
 
 
 .hamburger{
